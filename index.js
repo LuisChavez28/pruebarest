@@ -5,7 +5,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/";
+var url = "mongodb+srv://admin:admin@cluster0-bz6ya.gcp.mongodb.net/dnaverificados?retryWrites=true";
 var dbo;
 
 ///////////////////////////////////////////////////////
